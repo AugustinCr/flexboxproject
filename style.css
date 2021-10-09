@@ -34,7 +34,30 @@ a, a:hover, a:focus, a:active {
     color: inherit;
   }
 
-  .section1 {
+.section1 {
     display: flex;
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+  }
+
+.section1-text {
+    color: white;
+    max-width: 300px;
+  }
+  
+.section1-headtext {
+    font-size: 25px;
+    font-weight: 800;
+  }
+
+.section1-subtext {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+.section1-picture {
+      max-width: 300px;
+      max-height: 300px;
   }
