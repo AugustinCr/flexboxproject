@@ -39,25 +39,42 @@ a, a:hover, a:focus, a:active {
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
   }
 
 .section1-text {
     color: white;
-    max-width: 300px;
+    max-width: 350px;
   }
   
 .section1-headtext {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 800;
   }
 
 .section1-subtext {
     font-size: 15px;
     font-weight: 200;
+    margin-top: 6px;
 }
 
+.section1-button {
+    color: white;
+    background-color: #3882F6;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 8px;
+}
 
 .section1-picture {
-      max-width: 300px;
-      max-height: 300px;
+      max-width: 450px;
+      max-height: 450px;
+      margin-left: 75px;
+      border-radius: 25px;
   }
+
