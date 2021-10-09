@@ -1,0 +1,21 @@
+.body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a,  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+  }
+
+.header {
+    display: flex;
+}
+
+.headertext {
+    flex-direction: row;
+    list-style-type: none;
+}
