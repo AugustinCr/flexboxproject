@@ -9,21 +9,25 @@ body {
     display: flex;
     background-color: #1F2937;
     color: white;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    max-width: 870px;
+    flex: 1 1 auto;
     justify-content: space-between;
-    align-items: center;
 }
 
 .headleft {
     display: flex;
     max-width: 50px;
     max-height: 50px;
-    margin-left: 210px;
 }
 
-.headright {
+.headul {
     display: flex;
     list-style-type: none;
-    margin-right: 220px;
     justify-content: space-between;
     flex: 1 1 auto;
     max-width: 300px;
@@ -105,7 +109,7 @@ a, a:hover, a:focus, a:active {
 .section2-designs {
     max-width: 220px;
     max-height: 150px;
-    border-radius: 25px;
+    border-radius: 15px;
     border: 3px solid #1F2937;
 }
 
