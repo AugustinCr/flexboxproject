@@ -190,3 +190,12 @@ a, a:hover, a:focus, a:active {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.footer {
+    display: flex;
+    background-color: #1F2937 ;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
