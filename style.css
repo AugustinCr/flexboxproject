@@ -93,6 +93,8 @@ a, a:hover, a:focus, a:active {
     display: flex;
     flex: auto;
     justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;
 
 }
 
@@ -106,4 +108,10 @@ a, a:hover, a:focus, a:active {
     max-height: 150px;
     border-radius: 25px;
     border: 3px solid #1F2937;
+}
+
+.section2-designstext {
+    display: flex;
+    justify-content: center;
+    max-width: 220px;
 }
