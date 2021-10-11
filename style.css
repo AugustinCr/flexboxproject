@@ -91,11 +91,10 @@ a, a:hover, a:focus, a:active {
 
 .section2 {
     display: flex;
-    flex: auto;
+    flex: 0 1 auto;
     justify-content: space-evenly;
     text-align: center;
-    margin-bottom: 100px;
-
+    margin-bottom: 65px;
 }
 
 .design-container {
@@ -114,4 +113,80 @@ a, a:hover, a:focus, a:active {
     display: flex;
     justify-content: center;
     max-width: 220px;
+}
+
+.section3 {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.section3-text {
+    display: flex;
+    max-width: 1050px;
+    flex-direction: column;
+}
+
+.section3-maintext {
+    font-size: 23px;
+    color: #1F2937;
+    font-style:italic;
+}
+
+.section3-subtext {
+    display: flex;
+    font-weight: 900;
+    font-size: 18px;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4-container {
+    display: flex;
+    max-width: 500px;
+    background-color: #3882F6;
+    padding: 29px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 7px;
+    flex: 1 1 auto
+}
+
+.section4-text {
+    color: white;
+    flex-direction: column;
+}
+
+.section4-headtext {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section4-subtext {
+    font-size: 16px;
+}
+
+.section4-button {
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 3px;
+    font-size: 15px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
